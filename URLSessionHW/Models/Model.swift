@@ -8,10 +8,25 @@
 import Foundation
 
 struct Model: Decodable {
-    let server: String
+    let result: String
+    let provider: String
+    let timeLastUpdateUnix: Int
+    let rates: Rate
+    
+    enum CodingKeys: String, CodingKey {
+        case result, provider, rates
+        case timeLastUpdateUnix = "time_last_update_unix"
+    }
 }
 
-struct File: Decodable {
-    let name: String
-    let format: String
+struct Rate: Decodable {
+    let usd: Int
+    let rub: Double
+    let eur: Double
+
+    enum CodingKeys: String, CodingKey {
+        case usd = "USD"
+        case rub = "RUB"
+        case eur = "EUR"
+    }
 }
