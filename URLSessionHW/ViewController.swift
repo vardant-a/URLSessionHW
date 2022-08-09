@@ -25,12 +25,12 @@ class ViewController: UIViewController {
                 let unpackedData = try JSONDecoder().decode(Model.self, from: data)
                 print("""
                 Данные JSON файла:
-                result - \(unpackedData.result)
-                provider - \(unpackedData.provider)
-                timeLastUpdateUnix - \(unpackedData.timeLastUpdateUnix)
-                Доллар - \(unpackedData.rates.eur)
-                Рубль - \(unpackedData.rates.rub)
-                Евро - \(unpackedData.rates.eur)
+                    result - \(unpackedData.result)
+                    provider - \(unpackedData.provider)
+                    timeLastUpdateUnix - \(unpackedData.timeLastUpdateUnix)
+                    Доллар - \(unpackedData.rates.eur)
+                    Рубль - \(unpackedData.rates.rub)
+                    Евро - \(unpackedData.rates.eur)
                 """)
             } catch let error {
                 print(error)
