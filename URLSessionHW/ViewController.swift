@@ -7,9 +7,11 @@
 
 import UIKit
 
-let urlJSON = "https://open.er-api.com/v6/latest/USD"
-
 class ViewController: UIViewController {
+/* В Json файле значение доллара 1, по этому использовал инт, но при парсинге,
+ значение стало 0.981. Даже не понял как.
+ */
+    private let urlJSON = "https://open.er-api.com/v6/latest/USD"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,4 +40,4 @@ class ViewController: UIViewController {
         }.resume()
     }
 }
-// В Json файле значение доллара 1, по этому использовал инт, но при парсинге, значение стало 0.981. Даже не понял как.
+
