@@ -30,7 +30,7 @@ class ViewController: UIViewController {
                     result - \(unpackedData.result)
                     provider - \(unpackedData.provider)
                     timeLastUpdateUnix - \(unpackedData.timeLastUpdateUnix)
-                    Доллар - \(unpackedData.rates.eur)
+                    Доллар - \(unpackedData.rates.usd)
                     Рубль - \(unpackedData.rates.rub)
                     Евро - \(unpackedData.rates.eur)
                 """)
