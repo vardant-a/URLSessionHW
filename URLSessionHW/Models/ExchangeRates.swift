@@ -1,5 +1,5 @@
 //
-//  Model.swift
+//  ExchangeRates.swift
 //  URLSessionHW
 //
 //  Created by Алексей on 08.08.2022.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Model: Decodable {
+struct ExchangeRates: Decodable {
     let result: String
     let provider: String
     let timeLastUpdateUnix: Int

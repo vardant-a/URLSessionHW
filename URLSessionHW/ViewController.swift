@@ -24,7 +24,7 @@ class ViewController: UIViewController {
                 return
             }
             do {
-                let unpackedData = try JSONDecoder().decode(Model.self, from: data)
+                let unpackedData = try JSONDecoder().decode(ExchangeRates.self, from: data)
                 print("""
                 Данные JSON файла:
                     result - \(unpackedData.result)
