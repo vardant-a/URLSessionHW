@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E6043FE28A5042600CA125F /* ExchangeRateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6043FD28A5042600CA125F /* ExchangeRateTableViewController.swift */; };
 		0E8E7EB428A130AD00D2625A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E7EB328A130AD00D2625A /* AppDelegate.swift */; };
 		0E8E7EB628A130AD00D2625A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8E7EB528A130AD00D2625A /* SceneDelegate.swift */; };
 		0E8E7EBB28A130AD00D2625A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8E7EB928A130AD00D2625A /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E6043FD28A5042600CA125F /* ExchangeRateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateTableViewController.swift; sourceTree = "<group>"; };
 		0E8E7EB028A130AD00D2625A /* URLSessionHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSessionHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8E7EB328A130AD00D2625A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E8E7EB528A130AD00D2625A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				0EBDCA3728A4435100232185 /* MainViewController.swift */,
+				0E6043FD28A5042600CA125F /* ExchangeRateTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				0E8E7EB428A130AD00D2625A /* AppDelegate.swift in Sources */,
 				0EBDCA3428A4284000232185 /* NetworkManager.swift in Sources */,
+				0E6043FE28A5042600CA125F /* ExchangeRateTableViewController.swift in Sources */,
 				0E8E7EB628A130AD00D2625A /* SceneDelegate.swift in Sources */,
 				0E8E7EC928A130D400D2625A /* ExchangeRates.swift in Sources */,
 				0EBDCA3828A4435100232185 /* MainViewController.swift in Sources */,

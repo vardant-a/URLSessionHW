@@ -20,13 +20,22 @@ struct ExchangeRates: Decodable {
 }
 
 struct Rate: Decodable {
-    let usd: Int
-    let rub: Double
-    let eur: Double
+    let usd: Value
+    let rub: Value
+    let eur: Value
+    let kzt: Value
+    let aud: Value
 
     enum CodingKeys: String, CodingKey {
         case usd = "USD"
         case rub = "RUB"
         case eur = "EUR"
+        case kzt = "KZT"
+        case aud = "AUD"
     }
+}
+
+enum Value: Decodable {
+    case int
+    case double
 }

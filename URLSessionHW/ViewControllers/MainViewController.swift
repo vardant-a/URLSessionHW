@@ -8,19 +8,25 @@
 import UIKit
 
 class MainViewController: UIViewController {
-
-    @IBOutlet var test: UIButton!
-    @IBOutlet var currencySelectionMenu: UIMenu!
     
+    // MARK: - IBOutlets
+
+    @IBOutlet var amountTextField: UITextField!
+    
+    private var countCurrensies = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
-        // Do any additional setup after loading the view.
     }
     
-    @IBAction func tupButton() {
-    }
+//    override func performSegue(withIdentifier identifier: String, sender: Any?) {
+//        guard let 
+//    }
+    
+//    @IBAction func tubButton(_ sender: UIButton) {
+//        sender.tag == 0
+//        ?
+//        :
+//    }
     
 }
